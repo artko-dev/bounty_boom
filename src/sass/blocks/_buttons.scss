@@ -1,0 +1,26 @@
+.button {
+      width: 250px;
+      height: 50px;
+      border: none;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      align-items: center;
+   &__link {
+      font-family: $add-font;
+      font-size: 20px;
+      line-height: 45px;
+      color: #fff;
+      background-color: #000;
+      border-radius: 25px;
+      text-align: left;
+      padding-left: 40px;
+   };
+   &__a {
+      text-decoration: none;
+   };
+   &-arrow {
+      width: 40px;
+      padding-left: 15px;
+   };
+};

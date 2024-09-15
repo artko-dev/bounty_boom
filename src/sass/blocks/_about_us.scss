@@ -1,0 +1,17 @@
+.about_us {
+   background-color: $second-color;
+   padding: 20px 170px;
+   text-align: center;
+   color: #fff;
+   &__wrapper {
+      background: url(/src/img/secondBg.png) center (center/cover) no-repeat;
+   };
+   &__text {
+      margin: 0 auto;
+      max-width: 900px;
+      padding: 20px 0 70px;
+   };
+   &__title {
+      text-align: center;
+   };
+};

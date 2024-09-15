@@ -1,0 +1,29 @@
+.top_menu {
+   margin-top: 20px;
+}
+nav a {
+   text-decoration: none;
+   color: #000;
+   font-family: $add-font;
+   font-size: 18px;
+};
+
+.nav_wrapper {
+   position: relative;
+   display: grid;
+   grid-template-columns: 400px 480px 400px;
+   align-items: center
+};
+
+.wrapperLeft a {
+   padding-left: 110px;
+};
+
+.wrapperRight a{
+   padding-right: 110px;
+};
+
+.logo {
+   font-size: 24px;
+   font-family: $add-font;
+};

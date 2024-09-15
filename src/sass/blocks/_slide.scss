@@ -1,0 +1,36 @@
+.slide {
+   background: rgb(255, 226, 249);
+   background: linear-gradient(54deg, rgba(255, 226, 249, 1) 0%, rgba(246, 113, 196, 1) 35%, rgba(255, 255, 255, 1) 100%);
+   margin-top: 20px;
+   margin-bottom: -1px;
+   max-height: 1000px;
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr; 
+   };
+   &_img {
+      & img {
+         max-width: 600px;
+         max-height: 600;
+         padding-left: 80px;
+      };
+   }
+   &_add {
+      & button {
+         background-color: $second-color;
+      }
+      margin: 175px 80px;
+      &__desc {
+         font-size: 34px;
+         font-family: $add-font;
+         color: $font-color;
+      };
+      &__title {
+         width: 500px;
+         font-size: 48px;
+         line-height: 58px;
+         font-family: $main-font;
+         color: $font-color;
+      }
+   };
+};

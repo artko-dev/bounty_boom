@@ -1,0 +1,47 @@
+.adv {
+   &__title {
+      color: $main-color;
+      padding: 100px;
+      text-align: center;
+      font-size: 48px;
+      
+   }
+   &__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1px 1fr 1px 1fr;
+   };
+   &__item {
+      padding-left: 125px;
+      
+   };
+   & hr {
+      width: 1px;
+      height: 200px;
+      background-color: $main-color;
+   };
+   &__img {
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      position: relative;
+      & img {
+         max-width: 100px;
+         max-height: 100px;
+         position: absolute;
+         left: 0;
+         top: 0;
+         bottom: 0;
+         right: 0;
+         margin: auto;
+      };
+      &-first {
+         background-color: $main-color;
+      };
+      &-second {
+         background-color: $second-color;
+      };
+      &-third {
+         background-color: $bg-color;
+      }
+   };
+};
