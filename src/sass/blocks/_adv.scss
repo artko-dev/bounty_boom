@@ -11,17 +11,16 @@
       grid-template-columns: 1fr 1px 1fr 1px 1fr;
    };
    &__item {
-      padding-left: 125px;
+      //padding-left: 125px;
    };
    & hr {
-      margin: 0 auto;
       width: 1px;
       height: 200px;
       background-color: $main-color;
       border: none;
    };
    &__hr {
-      padding: 25px 0 0 62px;
+      padding: 25px 0 0 0;
    }
    &__img {
       margin: 0 auto;
