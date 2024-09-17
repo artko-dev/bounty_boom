@@ -1,12 +1,12 @@
 .main {
    &__title {
       font-family: $main-font;
-      font-size: 36px;
+      font-size: $title;
       font-weight: 400;
    };
    &__description {
       font-family: $add-font;
-      font-size: 20px;
+      font-size: $text;
       line-height: 38px;
       font-weight: 300;
    };

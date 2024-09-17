@@ -1,9 +1,9 @@
 .adv {
+   padding-bottom: 75px;
    &__title {
       color: $main-color;
       padding: 100px;
       text-align: center;
-      font-size: 48px;
       
    }
    &__wrapper {
@@ -12,14 +12,19 @@
    };
    &__item {
       padding-left: 125px;
-      
    };
    & hr {
+      margin: 0 auto;
       width: 1px;
       height: 200px;
       background-color: $main-color;
+      border: none;
    };
+   &__hr {
+      padding: 25px 0 0 62px;
+   }
    &__img {
+      margin: 0 auto;
       width: 150px;
       height: 150px;
       border-radius: 100%;
@@ -42,6 +47,10 @@
       };
       &-third {
          background-color: $bg-color;
-      }
+      };
+   };
+   &__desc {
+      padding-top: 25px;
+      text-align: center;
    };
 };
