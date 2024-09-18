@@ -10,24 +10,5 @@
       line-height: 38px;
       font-weight: 300;
    };
-   &__btn {
-      font-family: $add-font;
-      font-size: 20px;
-      line-height: 45px;
-      color: #fff;
-      background-color: #fff;
-      width: 250px;
-      height: 50px;
-      border-radius: 25px;
-      text-align: left;
-      padding-left: 40px;
-      display: grid;
-      grid-template-columns: 1.5fr 1fr;
-      &-arrow {
-         width: 40px;
-         padding-left: 15px;
-         transform: translateY(5px)
-      };
-   };
 };
 

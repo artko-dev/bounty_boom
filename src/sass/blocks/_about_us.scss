@@ -4,14 +4,14 @@
    text-align: center;
    color: #fff;
    &__wrapper {
-      background: url(/img/secondBg.png) center (center/cover) no-repeat;
+      background: url(/img/bg/secondBg.png) center (center/cover) no-repeat;
    };
    &__text {
       margin: 0 auto;
       max-width: 900px;
       padding: 20px 0 70px;
    };
-   &__title {
+   & h2 {
       text-align: center;
    };
 };

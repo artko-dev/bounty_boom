@@ -1,6 +1,7 @@
 .offers {
-   background: url(/img/secondBg.png) center (center/cover) no-repeat;
-   &__title {
+   padding-bottom: 70px;
+   background: url(/img/bg/secondBg.png) center (center/cover) no-repeat;
+   & h2 {
       padding-top: 75px;
       text-align: center;
       color: #fff;
@@ -21,7 +22,7 @@
             max-width: 350px;
          };
       };
-      &__title {
+      & h3 {
          padding-top: 20px;
          font-size: 28px;
          color: $main-color

@@ -1,0 +1,22 @@
+.contact {
+   padding-top: 80px;
+   height: 800px;
+   position: relative;
+   background: url(/img/bg/contactBg.jpg) center (center/cover) no-repeat;
+   width: 100%;
+   //&__fon {
+      
+   //   position: absolute;
+   //   width: 100%;
+   //};
+   & h2 {
+      font-size: 46px;
+      padding-top: 250px;
+      text-align: center;
+      color: $main-color;
+   };
+   & button {
+      background-color: $main-color;
+      margin: 0 auto;
+   };
+};

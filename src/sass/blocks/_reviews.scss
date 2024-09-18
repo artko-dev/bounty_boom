@@ -1,0 +1,33 @@
+.reviews {
+   padding: 65px 0;
+   background-color: $main-color;
+   color: #fff;
+   text-align: center;
+   & h2 {
+      padding-top: 15px;
+      text-align: center;
+   };
+   &__desc {
+      padding-top: 35px;
+      text-align: center;
+      font-size: 18px;
+      line-height: 24px;
+   };
+   &__name {
+      font-size: 16px;
+      padding-top: 45px;
+   };
+   &__arrows {
+      padding-top: 35px;
+   };
+   &__arrow {
+      max-width: 45px;
+      &-left {
+         padding-left: 15px;
+         transform: scale(-1, -1);
+      };
+      &-right {
+         padding-left: 15px;
+      };
+   };
+};

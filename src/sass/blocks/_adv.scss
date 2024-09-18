@@ -1,6 +1,6 @@
 .adv {
    padding-bottom: 75px;
-   &__title {
+   & h2 {
       color: $main-color;
       padding: 100px;
       text-align: center;
@@ -9,9 +9,6 @@
    &__wrapper {
       display: grid;
       grid-template-columns: 1fr 1px 1fr 1px 1fr;
-   };
-   &__item {
-      //padding-left: 125px;
    };
    & hr {
       width: 1px;
