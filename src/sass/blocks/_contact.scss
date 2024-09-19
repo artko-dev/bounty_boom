@@ -13,10 +13,11 @@
       font-size: 46px;
       padding-top: 250px;
       text-align: center;
-      color: $main-color;
+      color: $font-color;
    };
    & button {
       background-color: $main-color;
       margin: 0 auto;
+      width: 260px;
    };
 };
